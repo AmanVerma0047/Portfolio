@@ -1,0 +1,18 @@
+.Icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: auto;
+    gap: 20px;
+}
+
+.Icons-img{
+    height: 32px;
+    transition: 0.45s;
+}
+
+.Icons-img:hover{
+    height: 45px;
+    transition: 0.45s;
+    cursor: pointer;
+}
