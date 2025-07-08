@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'CoreHumanistSans';
-  src: url('src/assets/fonts/CoreHumanistSans.otf') format('truetype');
+  src: url('/Portfolio/assets/fonts/CoreHumanistSans.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'vjs';
-  src: url('src/assets/fonts/vjs.ttf') format('truetype');
+  src: url('/Portfolio/assets/fonts/CoreHumanistSans.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
