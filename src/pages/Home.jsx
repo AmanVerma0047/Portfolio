@@ -36,7 +36,7 @@ function Home() {
                     <ul className='MenuBar'>
                         <li><button>About Me</button></li>
                         <li><button>Projects</button></li>
-                        <li> <img className={`NavBar ${isSticky ? 'sticky' : 'nosticky'}`} src='../assets/favicon-196x196nbg.png' width={98} height={98} alt="Brand" /></li>
+                        <li> <img className={`NavBar ${isSticky ? 'sticky' : 'nosticky'}`} src={Favicon} width={98} height={98} alt="Brand" /></li>
                         <li><button>Illustrations</button></li>
                         <li><button>Blog</button></li>
                     </ul>
