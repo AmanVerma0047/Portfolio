@@ -1,7 +1,6 @@
-
 @font-face {
   font-family: 'CoreHumanistSans';
-  src: url('/Portfolio/assets/fonts/CoreHumanistSans.otf') format('truetype');
+  src: url('CoreHumanistSans.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +8,7 @@
 
 @font-face {
   font-family: 'vjs';
-  src: url('/Portfolio/assets/fonts/CoreHumanistSans.otf') format('truetype');
+  src: url('vjs.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,10 +18,6 @@
   margin-right: 50px;
 }
 
-.Description{
-  margin-left: 50px;
-  flex-wrap: wrap;
-}
 
 
 .NavBar {
