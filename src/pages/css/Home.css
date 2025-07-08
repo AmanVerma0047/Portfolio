@@ -13,7 +13,7 @@
   font-style: normal;
 }
 
-.Home{
+.Home {
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -24,37 +24,33 @@
   opacity: 1;
   height: 50;
   width: 50;
-  transform: translateY(0);
-  transition:width 0.45s ease-in-out, opacity 0.45s ease-in-out, transform 0.45s ease-in-out, visibility 0s linear 0s;
+  transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0s;
 }
 
 .NavBar.nosticky {
   opacity: 0;
   height: 0;
   width: 0;
-  transform: translateY(-20);
-  transition:width 0.45s ease-in-out, opacity 0.45s ease-in-out, transform 0.45s ease-in-out, visibility 0s linear 0.45s;
-  
+  transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
+
 }
 
 
-.NavBar.Logo-hide{
+.NavBar.Logo-hide {
   opacity: 0;
   width: 0;
-  transform: translateY(0);
-  transition:width 0.45s ease-in-out, opacity 0.45s ease-in-out, transform 0.45s ease-in-out, visibility 0s linear 0.45s;
+  transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
 
 }
 
 
-.NavBar.Logo{
+.NavBar.Logo {
   opacity: 1;
   width: 50;
-  transform: translateY(-20);
-  transition: width 0.45s ease-in-out, opacity 0.45s ease-in-out, transform 0.45s ease-in-out, visibility 0s linear 0.45s;
+  transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
 }
 
-.MenuBar{
+.MenuBar {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -62,7 +58,7 @@
   align-items: center;
   gap: 50px;
   margin: 10px;
-  padding:0;
+  padding: 0;
   font-style: bold;
   font-size: 20px;
   font-family: CoreHumanistSans;
@@ -78,7 +74,7 @@
   }
 }
 
-.Copyright{
+.Copyright {
   font-size: 18px;
   color: #a0a3a1;
 }
