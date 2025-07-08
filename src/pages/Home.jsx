@@ -64,9 +64,7 @@ function Home() {
                 <br />
                 <br />
                 <br />
-                <br />
                 <SocialMedia />
-                <br />
                 <br />
                 <br />
                 <div className='Copyright'>© Aman Verma 2025</div>

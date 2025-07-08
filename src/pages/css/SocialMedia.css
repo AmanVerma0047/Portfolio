@@ -16,3 +16,39 @@
     transition: 0.45s;
     cursor: pointer;
 }
+
+.Dialogbox{
+    background-color: #e0e1dd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20px;
+    width: 50%;
+    margin-left:25%;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.Email{
+    display: none;
+}
+
+.Github{
+    display: none;
+}
+
+.EmailText.Email{
+    display: block;
+}
+
+.EmailText.notisEmail{
+    display: none;
+}
+
+.GithubText.Github{
+    display: block;
+}
+
+.GithubText.notisGithub{
+    display: none;
+}

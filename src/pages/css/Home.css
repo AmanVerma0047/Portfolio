@@ -13,6 +13,17 @@
   font-style: normal;
 }
 
+.Home{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Description{
+  margin-left: 50px;
+  flex-wrap: wrap;
+}
+
+
 .NavBar {
   opacity: 1;
   height: 50;
