@@ -29,13 +29,13 @@ function Home() {
         <><div className='Home'>
             <div className='NavBar'>
                 <div className="NavBar-brand">
-                    <img className={`NavBar ${isScroll? 'Logo-hide':'Logo'}`} src='src/assets/favicon-196x196nbg.png' width={196} height={196} alt="Brand" />
+                    <img className={`NavBar ${isScroll? 'Logo-hide':'Logo'}`} src='/Portfolio/assets/favicon-196x196nbg.png' width={196} height={196} alt="Brand" />
                 </div>
                 <div>
                     <ul className='MenuBar'>
                         <li><button>About Me</button></li>
                         <li><button>Projects</button></li>
-                        <li> <img className={`NavBar ${isSticky ? 'sticky' : 'nosticky'}`} src='src/assets/favicon-196x196nbg.png' width={98} height={98} alt="Brand" /></li>
+                        <li> <img className={`NavBar ${isSticky ? 'sticky' : 'nosticky'}`} src='/Portfolio/assets/favicon-196x196nbg.png' width={98} height={98} alt="Brand" /></li>
                         <li><button>Illustrations</button></li>
                         <li><button>Blog</button></li>
                     </ul>
