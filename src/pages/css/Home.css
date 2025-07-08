@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'CoreHumanistSans';
+  src: url('src/assets/fonts/CoreHumanistSans.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'vjs';
+  src: url('src/assets/fonts/vjs.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.MenuBar{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 10px;
+  padding:0;
+  font-style: bold;
+  font-size: 20px;
+  font-family: CoreHumanistSans;
+}
+
+@media (max-width: 768px) {
+  .MenuBar {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    gap: 20px;
+  }
+}

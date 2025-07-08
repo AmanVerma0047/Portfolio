@@ -1,0 +1,16 @@
+.Cards{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex:auto;
+    justify-content: center;
+}
+
+.Card-item {
+  transition: background-color 0.45s ease-in-out, padding 0.45s ease-in-out;
+}
+
+.Card-item:hover {
+  background-color: #e0e1dd;
+  padding: 10px;
+}
