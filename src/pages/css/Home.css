@@ -19,19 +19,16 @@
 }
 
 
-
 .NavBar {
   opacity: 1;
-  height: 50;
   width: 50;
-  transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0s;
+  transition:width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0s;
 }
 
 .NavBar.nosticky {
   opacity: 0;
-  height: 0;
   width: 0;
-  transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
+  transition: width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
 
 }
 
@@ -39,6 +36,7 @@
 .NavBar.Logo-hide {
   opacity: 0;
   width: 0;
+  height:0;
   transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
 
 }
@@ -47,6 +45,7 @@
 .NavBar.Logo {
   opacity: 1;
   width: 50;
+  height:50;
   transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
 }
 
