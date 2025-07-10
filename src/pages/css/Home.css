@@ -19,6 +19,11 @@
 }
 
 
+::selection {
+  background: #a0a3a1;   /* Background color when text is selected */
+  color: #ffffff;        /* Text color when selected */
+}
+
 .NavBar {
   opacity: 1;
   width: 50;
