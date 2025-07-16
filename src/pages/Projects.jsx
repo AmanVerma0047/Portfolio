@@ -1,8 +1,12 @@
-
+import Card from "./Card"
 function Projects() {
-    return <div>
-        <p>Coming Soon..\The site is in Development\</p>
-        <marquee>This is the Projects Sections!</marquee>
+    return <div className="Projects">
+        <div className="Cards"> 
+            <Card description="News App"/>
+            <Card description="Movies App"/>
+            <Card description="Code Editor"/>
+        </div>
+            
         </div>
 }
 

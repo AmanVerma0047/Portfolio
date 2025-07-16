@@ -20,7 +20,7 @@ function App() {
             <Route path='/Illustrations' element={<Illustrations />}/>
             <Route path='/Blogs' element={<Blogs />}/>
           </Routes>
-          
+          <div className='Copyright'>© Aman Verma 2025</div>
         </main>
       </div>
   </div>

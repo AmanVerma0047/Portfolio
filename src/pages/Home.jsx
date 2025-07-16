@@ -15,15 +15,12 @@ function Home() {
                 <br />
                 <div className='Cards'>
                 <Card 
-                // image=""
                 description="News App"
                 />
                 <Card 
-                // image=""
                 description="Movies App"
                 />
                 <Card 
-                // image=""
                 description="Code Editor"
                 />
                 </div>
@@ -33,7 +30,7 @@ function Home() {
                 <SocialMedia />
                 <br />
                 <br />
-                <div className='Copyright'>© Aman Verma 2025</div>
+                {/* <div className='Copyright'>© Aman Verma 2025</div> */}
             </div>
             </div>
         </>
