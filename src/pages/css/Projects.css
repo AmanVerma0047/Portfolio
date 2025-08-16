@@ -3,6 +3,10 @@
     flex-direction: row;
     top: 0;
 }
+.Imageitem{
+    height: 180px;
+    width: auto;
+}
 
 .Projects{
     padding: 0px;

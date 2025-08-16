@@ -7,13 +7,13 @@ import './css/Projects.css';
 function Projects() {
     return <> <div className="Projects">
         <div className="Projects-desc">
-            {/* <div className="Images">
-                <img src={image1} width={320} height={180} />
-                <img src={image2} width={320} height={180} />
-                <img src={image3} width={320} height={180} />
-                <img src={image4} width={320} height={180} />
+            <div className="Images">
+                <img className="Imageitem" src={image1} />
+                <img className="Imageitem" src={image2} />
+                <img className="Imageitem" src={image3} />
+                <img className="Imageitem" src={image4} />
 
-            </div> */}
+            </div>
             <div className="Projects-Text-Section">
                 <h1>Snowboarders: Kiri Adventures</h1>
                 <h2>Hello the Text is here!</h2>
