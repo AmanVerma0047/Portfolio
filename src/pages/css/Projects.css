@@ -4,22 +4,29 @@
     top: 0;
 }
 
+.Projects{
+    padding: 0px;
+    margin:0px;
+}
+
+.Images{
+    padding: 0px;
+    margin: 0px;
+}
+
 .Projects-Text-Section {
-    text-align: justify;
-    padding-left: 20px;
+    text-align: left;
 }
 
 h1 {
     color: black;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .Projects-desc {
         transition: 0.45s;
         flex-direction: column;
         align-items: center;
-        padding-left: 0;
-        gap: 20px;
     }
 
 

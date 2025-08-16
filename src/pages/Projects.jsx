@@ -8,10 +8,10 @@ function Projects() {
     return <div className="Projects">
         <div className="Projects-desc">
             <div className="Images">
-                <img src={image1} width={400} height={225}/>
-                <img src={image2} width={400} height={225}/>
-                <img src={image3} width={400} height={225}/>
-                <img src={image4} width={400} height={225}/>
+                <img src={image1} width={320} height={180}/>
+                <img src={image2} width={320} height={180}/>
+                <img src={image3} width={320} height={180}/>
+                <img src={image4} width={320} height={180}/>
 
             </div>
             <div className="Projects-Text-Section">
