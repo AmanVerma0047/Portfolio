@@ -1,11 +1,12 @@
 import "./css/Card.css"
 
-function Card({description}){
+function Card({image,description,link}){
     return<>
     <div className="Card-Set">
         <div className="Card-item">
-            {/* <img src={image} height={280} width={280}/> */}
+            {image && <img src={image} height={225} width={400}/>}
             <p className="Description">{description}</p>
+            {link && <a href={link} target="_blank">View Site</a>}
         </div>
     </div>
     </>

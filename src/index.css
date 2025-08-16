@@ -1,11 +1,11 @@
 :root {
   font-family: CoreHumanistSans,monospace, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  /* font-weight: 400; */
 
   color-scheme: light dark;
   color: #7c7c7a;
-  background-color: #f4f5f1;
+  background-color:#F2F3EF;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,7 +21,7 @@ body{
 }
 
 a {
-  font-weight: 500;
+  /* font-weight: 100; */
   color: #4f4f4f;
   text-decoration: underline;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  /* font-size: 1em; */
   line-height: 1.1;
 }
 button {
@@ -48,11 +48,11 @@ button {
   border: 0.25px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
-  font-weight: 500;
+  /* font-weight: 100; */
   font-family: inherit;
   cursor:url('cursor.png'),auto;
   color: #5c5c5b;
-  background-color: #f4f5f1;
+  background-color:#F2F3EF;
   transition: background-color 0.45s ease-in-out, padding 0.45s ease-in-out;
 }
 
