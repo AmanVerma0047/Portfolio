@@ -4,12 +4,6 @@
     top: 0;
 }
 
-.Projects {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-
 .Projects-Text-Section {
     text-align: justify;
     padding-left: 20px;
@@ -20,11 +14,6 @@ h1 {
 }
 
 @media (max-width: 720px) {
-    .Projects {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
     .Projects-desc {
         transition: 0.45s;
         flex-direction: column;
