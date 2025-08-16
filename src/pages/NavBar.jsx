@@ -17,7 +17,7 @@ function NavBar() {
                     <li><button><Link to="/Projects">Projects</Link></button></li>
                     <li>
                         <Link to="/">
-                            <img className="NavBar sticky" src={Favicon} width={49} height={49} alt="Brand" />
+                            <img className="NavBar sticky brandimage" src={Favicon} width={49} height={49} alt="Brand" />
                         </Link>
                     </li>
                     <li><button><Link to="/Illustrations">Illustrations</Link></button></li>

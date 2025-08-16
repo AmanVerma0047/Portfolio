@@ -14,33 +14,43 @@
 }
 
 .Home {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 
 ::selection {
-  background: #a0a3a1;   /* Background color when text is selected */
-  color: #ffffff;        /* Text color when selected */
+  background: #a0a3a1;
+  /* Background color when text is selected */
+  color: #ffffff;
+  /* Text color when selected */
 }
 
- .NavBar {
+.NavBar {
   position: sticky;
   opacity: 1;
   width: 50;
-  top: 0;              /* Sticks to the very top */
-  z-index: 1000;       /* Ensures it stays above other content */
-  background: #F4F5F1;   /* Keeps it visible while scrolling */
+  top: 0;
+  /* Sticks to the very top */
+  z-index: 1000;
+  /* Ensures it stays above other content */
+  background: #F4F5F1;
+  /* Keeps it visible while scrolling */
   border-radius: 25px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional subtle shadow */
-  transition:width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Optional subtle shadow */
+  transition: width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0s;
 }
 
-.NavBar-brand{
+.NavBar-brand {
   box-shadow: none;
 }
 
-
+.brandimage {
+  border-radius: 10px;
+  box-shadow: none;
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.2); */
+}
 
 .NavBar.nosticky {
   opacity: 0;
@@ -48,25 +58,25 @@
   box-shadow: none;
   transition: width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
 
-} 
+}
 
 .NavBar.Logo-hide {
   opacity: 0;
   width: 0;
-  height:0;
+  height: 0;
   box-shadow: none;
   transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
 
-} 
+}
 
 
- .NavBar.Logo {
+.NavBar.Logo {
   opacity: 1;
   box-shadow: none;
   width: 50;
-  height:50;
+  height: 50;
   transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
-} 
+}
 
 
 .MenuBar {
@@ -92,6 +102,23 @@
     padding-left: 0;
     gap: 20px;
   }
+
+  .NavBar {
+    position: relative;
+    opacity: 1;
+    width: 50;
+    top: 0;
+    /* Sticks to the very top */
+    z-index: 1000;
+    /* Ensures it stays above other content */
+    background: #F4F5F1;
+    /* Keeps it visible while scrolling */
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional subtle shadow */
+    transition: width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0s;
+  }
+
 }
 
 .Copyright {
