@@ -6,7 +6,8 @@
 
 .Imageitem {
     height: 180px;
-    width: auto;
+    width: 320px;
+    padding: 30px;
 }
 
 .Projects {

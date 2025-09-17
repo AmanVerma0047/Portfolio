@@ -30,7 +30,7 @@ function SocialMedia() {
             <img className="Icons-img" src={links_img} alt="email" onMouseOver={handleGithub} onMouseLeave={nothandleGithub} ></img>
         </div>
         <div className='Dialogbox'>
-            <p className={`EmailText ${isEmail ? 'Email' : 'notisEmail'}`}>Email:vaman0183@gmail.com</p>
+            <p className={`EmailText ${isEmail ? 'Email' : 'notisEmail'}`}>Email:kirisoft@gmail.com</p>
             <p className={`GithubText ${isGithub ? 'Github' : 'notisGithub'}`}>Github:Amanverma0047</p>
         </div>
 

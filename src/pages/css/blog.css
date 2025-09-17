@@ -1,0 +1,53 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 auto;   /* centers block horizontally if width < 100% */
+    width: 80%;
+    height: 100%;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering */
+}
+
+/* blog full page styling */
+.BlogItem{
+    display: flex;
+    flex-direction: row;
+    top: 0;
+
+}
+/* image / video styling */
+
+.Imageitem {
+    height: 180px;
+    width: 320px;
+    padding: 30px;
+    
+}
+
+.Images {
+    padding: 30px;
+
+}
+
+/* description of the blog post */
+.Description{
+    padding: 10px;
+    text-align: start;
+}
+
+/* responsive site page */
+@media (max-width: 768px) {
+    .Imageitem {
+        height: 170px;
+        width: auto;
+    }
+
+    .BlogItem{
+        transition: 0.45s;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

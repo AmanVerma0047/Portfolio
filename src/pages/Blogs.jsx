@@ -1,9 +1,18 @@
-
+// importing important files
+import './css/blog.css';
+//importing components 
+import BlogItem from './BlogComponents.jsx';
+//importing assets videos/images
+import image1 from "../assets/blog-images/fish.mp4";
+import image2 from "../assets/blog-images/fish.mp4";
+//main componenent
 function Blogs() {
     return <div>
-        <p>Coming Soon..\The site is in Development\</p>
-        <marquee>This is blog section!</marquee>
+        <div className="blog">
+            <BlogItem Image = {image2} Title = "A Guide to Procedural Animations" headline = "nothing just some fun project!" desc = "So Recently I've jumped upon trying to make realistic animatable looking creatures using procedural animations technique.." />
+            <BlogItem Image = {image1} Title = "Coding my own Minimalism Code Editor?" headline = "nothing just some fun project!" desc = "I am thinking to make a text/code editor. Lets see how it goes.." />
         </div>
+    </div>
 }
 
 export default Blogs
