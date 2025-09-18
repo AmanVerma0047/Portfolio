@@ -1,46 +1,12 @@
-.Projects-desc {
+.ProjectCards{
     display: flex;
-    flex-direction: row;
-    top: 0;
-}
-
-.Imageitem {
-    height: 180px;
-    width: 320px;
-    padding: 30px;
-}
-
-.Projects {
+    flex-direction: column;
     padding: 0px;
-    margin: 0px;
-    width: 100%;
+    gap: 10px;
+    margin: 10px auto;   /* centers block horizontally if width < 100% */
+    width: 80%;
     height: 100%;
+    justify-content: center; /* vertical centering */
+    align-items: center; 
 }
 
-.Images {
-    padding: 0px;
-    margin: 0px;
-}
-
-.Projects-Text-Section {
-    text-align: left;
-}
-
-h1 {
-    color: black;
-}
-
-@media (max-width: 768px) {
-    .Imageitem {
-        height: 170px;
-        width: auto;
-    }
-
-    .Projects-desc {
-        transition: 0.45s;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-}

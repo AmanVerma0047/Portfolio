@@ -9,8 +9,14 @@ import image2 from "../assets/blog-images/fish.mp4";
 function Blogs() {
     return <div>
         <div className="blog">
-            <BlogItem Image = {image2} Title = "A Guide to Procedural Animations" headline = "nothing just some fun project!" desc = "So Recently I've jumped upon trying to make realistic animatable looking creatures using procedural animations technique.." />
-            <BlogItem Image = {image1} Title = "Coding my own Minimalism Code Editor?" headline = "nothing just some fun project!" desc = "I am thinking to make a text/code editor. Lets see how it goes.." />
+            <BlogItem Image = {image2} 
+                Title = "A Guide to Procedural Animations" 
+                    headline = "Posted On:15-09-2025" 
+                        desc = "So Recently I've jumped upon trying to make realistic animatable looking creatures using procedural animations technique.." />
+            <BlogItem Image = {image1} 
+                Title = "Coding my own Minimalism Code Editor?" 
+                    headline = "Posted On:15-09-2025" 
+                        desc = "I am thinking to make a text/code editor. Lets see how it goes.." />
         </div>
     </div>
 }
