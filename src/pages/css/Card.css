@@ -4,12 +4,16 @@
     flex:auto;
     justify-content: center;
     background-color: #e0e1dd;
-    
-}
+    }
 
 .Card-item {
   transition: background-color 0.45s ease-in-out, padding 0.45s ease-in-out;
 }
+
+.Description{
+  padding-left:10px ;
+}
+
 
 .Card-item:hover {
   background-color: #cccdc9;

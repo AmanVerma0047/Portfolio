@@ -45,12 +45,7 @@ h2{
     text-align: end;
 }
 
-/* description of the blog post */
-.Description{
-    text-align: start;
-    width: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+
 
 video{
     width: 100%;
