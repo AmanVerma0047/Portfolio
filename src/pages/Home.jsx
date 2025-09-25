@@ -11,7 +11,7 @@ function Home() {
             {/* <NavBar /> */}
             <div className="Content">
                 <h3>Hi, I am  Kiri – I’m an artist, designer and developer from India.</h3>
-                <h3>Get in touch : <a href='mailto:kirisoft@gmail.com'>kirisoft@gmail.com</a></h3>
+                <h3>Get in touch : <a href='mailto:kirisoftgames@gmail.com'>kirisoftgames@gmail.com</a></h3>
                 <br />
                 <div className='Cards'>
                 <Card 
