@@ -29,8 +29,6 @@
 .NavBar {
   position: sticky;
   opacity: 1;
-  width: 50;
-  top: 0;
   /* Sticks to the very top */
   z-index: 1000;
   /* Ensures it stays above other content */
@@ -39,43 +37,13 @@
   border-radius: 25px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   /* Optional subtle shadow */
-  transition: width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0s;
-}
-
-.NavBar-brand {
-  box-shadow: none;
+  transition:opacity 0.45s ease-in-out, visibility 0s linear 0s;
 }
 
 .brandimage {
   border-radius: 10px;
   box-shadow: none;
   /* box-shadow: 0 2px 4px rgba(0,0,0,0.2); */
-}
-
-.NavBar.nosticky {
-  opacity: 0;
-  width: 0;
-  box-shadow: none;
-  transition: width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
-
-}
-
-.NavBar.Logo-hide {
-  opacity: 0;
-  width: 0;
-  height: 0;
-  box-shadow: none;
-  transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
-
-}
-
-
-.NavBar.Logo {
-  opacity: 1;
-  box-shadow: none;
-  width: 50;
-  height: 50;
-  transition: height 0.45s ease-in-out, width 0.45s ease-in-out, opacity 0.45s ease-in-out, visibility 0s linear 0.45s;
 }
 
 
@@ -86,11 +54,9 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin: 10px;
   padding: 10px;
   font-style: bold;
   font-size: 20px;
-
   font-family: CoreHumanistSans;
 }
 
